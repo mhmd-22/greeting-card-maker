@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@500&display=swap');
+
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	--hue: 50;
+	--primary-1: hsl(var(--hue), 36%, 70%);
+	--primary-2: hsl(var(--hue), 66%, 38%);
+	--primary-3: hsl(var(--hue), 67%, 43%);
+	--primary-4: hsl(var(--hue), 100%, 28%);
+	@apply flex justify-center my-12 lg:my-0 lg:items-center h-screen;
+	background: rgb(255, 255, 252);
+}
+
+h1 {
+	font-family: 'El Messiri', sans-serif;
+}
+
+button {
+	/* prettier-ignore */
+	@apply bg-primary-2 hover:bg-primary-3 text-white rounded-md hover:cursor-pointer;
+	@apply px-6 py-1 font-medium;
+}
+
+button.lg {
+	font-family: 'El Messiri', sans-serif;
+
+	@apply px-10 py-2 font-semibold;
+}
+
+button.secondary {
+	@apply bg-black hover:bg-gray-800;
+}
+
+button:disabled {
+	@apply cursor-not-allowed opacity-50 grayscale hover:bg-primary-2;
+}
+
+input,
+textarea {
+	@apply border-primary-1 text-primary-2 mt-1 rounded-md  border-[1px] text-sm px-4 py-1 outline-none focus:outline-none;
+
+	@apply disabled:border-gray-300 disabled:text-gray-300 disabled:opacity-50 disabled:cursor-not-allowed;
+}
+
+[type='color'] {
+	background: none;
+	border: none;
+	outline: none;
+	padding: 0;
+	/* margin: 0; */
+}
+
+canvas,
+img {
+}
