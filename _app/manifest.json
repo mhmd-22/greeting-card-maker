@@ -1,0 +1,97 @@
+{
+  ".svelte-kit/runtime/client/start.js": {
+    "file": "start-18818d1c.js",
+    "src": ".svelte-kit/runtime/client/start.js",
+    "isEntry": true,
+    "imports": [
+      "_index-941e3aeb.js",
+      "_preload-helper-e4860ae8.js"
+    ],
+    "dynamicImports": [
+      "src/routes/__layout.svelte",
+      "src/routes/__error.svelte",
+      "src/routes/[id].svelte",
+      "src/routes/create/index.svelte",
+      "src/routes/index.svelte"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "pages/__layout.svelte-284dad2f.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-941e3aeb.js"
+    ],
+    "css": [
+      "assets/pages/__layout.svelte-abcd7492.css"
+    ]
+  },
+  "src/routes/__error.svelte": {
+    "file": "pages/__error.svelte-8a4061b4.js",
+    "src": "src/routes/__error.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-941e3aeb.js"
+    ],
+    "css": [
+      "assets/pages/__error.svelte-553c8bfd.css"
+    ]
+  },
+  "src/routes/[id].svelte": {
+    "file": "pages/_id_.svelte-7965ce77.js",
+    "src": "src/routes/[id].svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-941e3aeb.js",
+      "_api-7b918875.js"
+    ],
+    "css": [
+      "assets/pages/_id_.svelte-16aa2af4.css"
+    ]
+  },
+  "src/routes/create/index.svelte": {
+    "file": "pages/create/index.svelte-6540fe1e.js",
+    "src": "src/routes/create/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-941e3aeb.js",
+      "_api-7b918875.js",
+      "_preload-helper-e4860ae8.js"
+    ],
+    "dynamicImports": [
+      "_webfontloader-2014cc68.js"
+    ],
+    "css": [
+      "assets/pages/create/index.svelte-191097ca.css"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "pages/index.svelte-d8076438.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-941e3aeb.js"
+    ]
+  },
+  "_index-941e3aeb.js": {
+    "file": "chunks/index-941e3aeb.js"
+  },
+  "_preload-helper-e4860ae8.js": {
+    "file": "chunks/preload-helper-e4860ae8.js"
+  },
+  "_api-7b918875.js": {
+    "file": "chunks/api-7b918875.js",
+    "imports": [
+      "_index-941e3aeb.js"
+    ]
+  },
+  "_webfontloader-2014cc68.js": {
+    "file": "chunks/webfontloader-2014cc68.js",
+    "isDynamicEntry": true
+  }
+}

@@ -1,0 +1,1 @@
+import{S as e,i as n,s as o}from"../chunks/index-941e3aeb.js";const l=async function({url:t,fetch:s,session:r,stuff:a}){return{redirect:"/create",status:302,props:{}}};class c extends e{constructor(s){super(),n(this,s,null,null,o,{})}}export{c as default,l as load};
